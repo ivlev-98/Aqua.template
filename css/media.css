@@ -41,13 +41,17 @@
     .carouselItem p {
         font-size: 1em;
     }
-    .featuresList, .productsList {
+    .featuresList, .productsList, .reviewsList {
         flex-direction: column;
     }
-    .productsList {
+    .productsList, .reviewsList {
         align-items: center;
     }
     .product {
+        width: 90%;
+        margin: 20px 0;
+    }
+    .review {
         width: 90%;
         margin: 20px 0;
     }
