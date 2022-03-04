@@ -82,7 +82,7 @@ a {
 .carouselItem p {
     font-size: 1.3em;
 }
-.features, .products, .reviews {
+.features, .products, .reviews, .pageFoot {
     padding: 35px 20px;
 }
 .featuresList, .productsList {
@@ -195,4 +195,18 @@ a {
 }
 .review .text {
     padding: 15px 0;
+}
+.pageFoot {
+    background: #282c34;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.pageFoot a {
+    color: #fff;
+    padding: 10px 0;
+}
+.footSection {
+    display: flex;
+    flex-direction: column;
 }
