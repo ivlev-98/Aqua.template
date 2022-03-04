@@ -41,4 +41,7 @@
     .carouselItem p {
         font-size: 1em;
     }
+    .featuresList {
+        flex-direction: column;
+    }
 }

@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
 }
 body {
     font-family: Montserrat, sans-serif;
     min-height: 100vh;
     font-size: 16px;
+    color: #fff;
 }
 a {
     text-decoration: none;
@@ -20,6 +20,7 @@ a {
     justify-content: space-between;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
     padding: 0 20px;
+    color: #fff;
 }
 .pageNav {
     display: flex;
@@ -32,6 +33,7 @@ a {
     height: 70px;
     align-items: center;
     transition: .4s;
+    color: #fff;
 }
 .pageNav > a:hover {
     background: rgba(188, 230, 255, 0.3);
@@ -50,6 +52,7 @@ a {
     position: relative;
     height: 500px;
     overflow: hidden;
+    color: #fff;
 }
 .carouselItem {
     position: absolute;
@@ -79,4 +82,37 @@ a {
 }
 .carouselItem p {
     font-size: 1.3em;
+}
+.features {
+    padding: 35px 20px;
+}
+.featuresList {
+    display: flex;
+    justify-content: space-around;
+}
+.sectionHead {
+    padding-bottom: 20px;
+}
+.sectionHead > h2 {
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+}
+.feature {
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 300px;
+    text-align: center;
+}
+.feature > svg {
+    font-size: 7em;
+    color: #3aa193;
+}
+.feature > h3 {
+    font-size: 1.5em;
+}
+.feature > svg,p,h3 {
+    padding-bottom: 15px;
 }
