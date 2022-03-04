@@ -27,4 +27,18 @@
         height: 50px;
         justify-content: center;
     }
+    .carousel, .carouselItem {
+        height: 380px;
+    }
+    .carouselItem > .text {
+        bottom: 15px;
+        padding: 15px;
+    }
+    .carouselItem h2 {
+        font-size: 2.5em;
+        padding: 10px 0;
+    }
+    .carouselItem p {
+        font-size: 1em;
+    }
 }
